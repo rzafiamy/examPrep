@@ -164,27 +164,16 @@ Configure PostgreSQL in production mode
 ✔ Create a feature branch
 ✔ Submit a pull request
 
-
 ---
 
 ## License
 
 This project is licensed under the MIT License.
 
-
 ---
 
 ## Next Steps
 
-[ ] Implement the Admin Dashboard
-
-[ ] Improve QCM scoring system
-
-[ ] Add User progress tracking
-
-
-
----
-
-This README provides a structured guide for development. Let me know if you need modifications! 🚀
-
+- [ ] Implement the Admin Dashboard
+- [ ] Improve QCM scoring system
+- [ ] Add User progress tracking
