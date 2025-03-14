@@ -17,54 +17,61 @@ A Flask-based web application to help users prepare for various certification ex
 
 ### User Features
 
-✔️ Sign Up / Login / Logout
-✔️ Take timed QCMs for different certifications
-✔️ Track scores and history of attempts
-✔️ View past incorrect answers
-✔️ Responsive UI with Tailwind CSS
+- ✔️ Sign Up / Login / Logout
+- ✔️ Take timed QCMs for different certifications
+- ✔️ Track scores and history of attempts
+- ✔️ View past incorrect answers
+- ✔️ Responsive UI with Tailwind CSS
 
 ### Admin Features
 
-✔️ Secure login for admins
-✔️ Add / Update / Delete QCMs
-✔️ Manage certifications
-✔️ View users' performance & statistics
-
+- ✔️ Secure login for admins
+- ✔️ Add / Update / Delete QCMs
+- ✔️ Manage certifications
+- ✔️ View users' performance & statistics
 
 ---
 
 ## Installation
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/yourusername/prepareExam.git
 cd prepareExam
+```
+### 2️⃣ Create Virtual Environment
 
-2️⃣ Create Virtual Environment
-
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
-
-4️⃣ Setup Environment Variables
+```
+### 4️⃣ Setup Environment Variables
 
 Create a .env file in the root directory and add:
 
+```bash
 FLASK_APP=app.py
 FLASK_ENV=development
 SECRET_KEY=your_secret_key
 DATABASE_URL=postgresql://your_db_user:your_db_password@localhost/prepareexam
+```
 
-5️⃣ Initialize Database
+### 5️⃣ Initialize Database
 
+```bash
 flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
+```
 
-6️⃣ Run the Application
+### 6️⃣ Run the Application
 
 flask run
 
