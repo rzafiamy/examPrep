@@ -110,19 +110,21 @@ Access the app at: http://127.0.0.1:5000
 
 If you plan to customize Tailwind CSS:
 
-1. Install Tailwind CSS
+### 1. Install Tailwind CSS
 
+```bash
 npm install -D tailwindcss
 npx tailwindcss init
+```
+
+### 2. Configure tailwind.config.js
 
 
-2. Configure tailwind.config.js
+### 3. Use Tailwind classes in templates like:
 
-
-3. Use Tailwind classes in templates like:
-
+```bash
 <button class="bg-blue-500 text-white px-4 py-2 rounded">Start Exam</button>
-
+```
 
 
 
@@ -132,18 +134,19 @@ npx tailwindcss init
 
 Using Docker
 
-1. Build the Image
+### 1. Build the Image
 
+```bash
 docker build -t prepareexam .
+```
 
+### 2. Run the Container
 
-2. Run the Container
-
+```bash
 docker run -p 5000:5000 prepareexam
+```
 
-
-
-Using Gunicorn & Nginx
+### Using Gunicorn & Nginx
 
 Set up Gunicorn to serve the app
 
